@@ -14,4 +14,11 @@ public class Calculator {
     public int minus(){
         return firstNumber - secondNumber;
     }
+    public int multiply(){
+        return firstNumber * secondNumber;
+    }
+    public int division(){
+        return firstNumber / secondNumber;
+    }
+
 }

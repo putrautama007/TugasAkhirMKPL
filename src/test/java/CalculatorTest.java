@@ -9,7 +9,7 @@ public class CalculatorTest {
 
     @Before
     public void setup(){
-        calculator = new Calculator();
+        calculator = new Calculator(3,1);
     }
 
 
