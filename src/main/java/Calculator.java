@@ -20,5 +20,8 @@ public class Calculator {
     public int division(){
         return firstNumber / secondNumber;
     }
+    public int mod(){
+        return firstNumber % secondNumber;
+    }
 
 }
