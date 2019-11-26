@@ -20,6 +20,9 @@ public class Calculator {
     public int division(){
         return firstNumber / secondNumber;
     }
+    public int mod(){
+        return firstNumber % secondNumber;
+    }
 
     public int pow(int operand, int multiplier){
         if(multiplier == 0) return 1;
