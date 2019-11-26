@@ -24,4 +24,9 @@ public class Calculator {
         return firstNumber % secondNumber;
     }
 
+    public int pow(int operand, int multiplier){
+        if(multiplier == 0) return 1;
+        return operand * pow(operand, multiplier - 1);
+    }
+
 }

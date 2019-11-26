@@ -10,6 +10,8 @@ public class Main {
     private static String DIVISION = "Pembagian ";
     private static String MODULUS = "Modulus";
     private static String MODULUS_OPERATION = "%";
+    private static String POWER = "Pemangkatan ";
+    private static String POWER_OPERATOR = " ** ";
 
     public static void main(String[] args) {
         Calculator calculator = new Calculator(3,1);
@@ -28,5 +30,9 @@ public class Main {
 
         System.out.println(MODULUS + calculator.firstNumber + MODULUS_OPERATION + calculator.secondNumber);
         System.out.println(RESULT + calculator.mod());
+		int operand = 2;
+        int multiplier = 11;
+        System.out.println(POWER + operand + POWER_OPERATOR + multiplier);
+        System.out.println(RESULT + calculator.pow(operand, multiplier));
     }
 }
