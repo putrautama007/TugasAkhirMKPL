@@ -8,6 +8,8 @@ public class Main {
     private static String DIVISION_OPERATOR = "/";
     private static String MULTIPLY = "Perkalian ";
     private static String DIVISION = "Pembagian ";
+    private static String POWER = "Pemangkatan ";
+    private static String POWER_OPERATOR = " ** ";
 
     public static void main(String[] args) {
         Calculator calculator = new Calculator(3,1);
@@ -23,5 +25,10 @@ public class Main {
 
         System.out.println(DIVISION + calculator.firstNumber + DIVISION_OPERATOR + calculator.secondNumber);
         System.out.println(RESULT + calculator.division());
+
+		int operand = 2;
+        int multiplier = 11;
+        System.out.println(POWER + operand + POWER_OPERATOR + multiplier);
+        System.out.println(RESULT + calculator.pow(operand, multiplier));
     }
 }
