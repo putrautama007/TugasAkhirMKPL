@@ -1,4 +1,4 @@
-public class Main {
+public class Result {
     private static String RESULT = "HASIL =";
     private static String PLUS_OPERATOR = "+";
     private static String MINUS_OPERATOR = "-";
