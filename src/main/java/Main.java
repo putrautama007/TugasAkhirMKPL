@@ -34,5 +34,7 @@ public class Main {
         int multiplier = 11;
         System.out.println(POWER + operand + POWER_OPERATOR + multiplier);
         System.out.println(RESULT + calculator.pow(operand, multiplier));
+
+        System.out.println("Hello world");
     }
 }
